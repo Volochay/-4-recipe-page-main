@@ -60,3 +60,14 @@ ol li::marker{
 .solid{
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.values:last-child {
+    border-bottom: none;
+}
